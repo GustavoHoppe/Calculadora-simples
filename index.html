@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somador</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora Simples</h1>
+    </header>
+
+    <section>
+        
+        <div id="form">
+            <div>
+            <input type="number" name="n1" id="txtn1"> 
+            </div>
+            
+            <div id="sinal"></div>
+            
+            <div>
+            <input type="number" name="n2" id="txtn2"> =
+            </div>
+            
+            <div id="res"> 
+                RESULTADO
+            </div>
+        </div>
+
+        <input type="button" value="Somar" onclick="somar()">
+        <input type="button" value="Subtrair" onclick="subtrair()">
+        <input type="button" value="Multiplicar" onclick="multiplicar()">
+        <input type="button" value="Dividir" onclick="dividir()">
+    </section>
+    <footer>
+        <a href="https://www.instagram.com/hoppe_94/" target="_blank"> &copy; GuHoppe Dev</a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
